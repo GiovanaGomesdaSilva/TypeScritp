@@ -1,9 +1,9 @@
 // CONTA BANCÁRIA
 export class ContaBancaria {
-  titular: string;
-  private saldo: number;
+  //private titular: string;
+ // private saldo: number;
 
-  constructor(titular: string, saldo: number) {
+  constructor(private titular: string, private saldo: number) {
     this.titular = titular;
     this.saldo = saldo;
   }
